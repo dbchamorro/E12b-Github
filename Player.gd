@@ -1,5 +1,6 @@
 extends KinematicBody
 
+
 var velocity = Vector3()
 var gravity = -9.8
 var speed = 8
@@ -51,7 +52,4 @@ func _unhandled_input(event):
 		rotate_x(-event.relative.y * mouse_sensitivity)
 		rotate_y(-event.relative.y * mouse_sensitivity)
 
-
-
- 
 
